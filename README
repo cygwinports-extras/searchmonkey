@@ -1,0 +1,77 @@
+searchmonkey
+------------------------------------------
+A fast real-time search engine for displaying regular expression matches 
+(both file name and content) across multiple directories.
+
+Runtime requirements:
+  cygwin-1.5.23-2
+  atk-1.12.4-1
+  gdk-pixbuf2-2.10.7-1
+  glib2-2.12.7-1
+  gtk2-x11-2.10.7-1
+  libintl8-0.15-1
+  pango-1.14.9-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.23-2
+  autoconf2.5-2.61-1
+  automake1.9-1.9.6-2
+  binutils-20060817-1
+  cygport-0.2.9-1
+  gawk-3.1.5-4
+  gcc-core-3.4.4-3
+  make-3.81-1
+  pkg-config-0.21-1
+  sed-4.1.5-2
+
+Canonical website:
+  http://searchmonkey.sourceforge.net/
+
+Canonical download:
+  http://downloads.sourceforge.net/searchmonkey/
+
+-------------------------------------------
+
+Build instructions:
+  unpack searchmonkey-0.8.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./searchmonkey-0.8.0-X.cygport all
+
+This will create:
+  /usr/src/searchmonkey-0.8.0-X-src.tar.bz2
+  /usr/src/searchmonkey-0.8.0-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/searchmonkey.exe
+  /usr/share/doc/Cygwin/searchmonkey-0.8.0.README
+  /usr/share/doc/searchmonkey-0.8.0/AUTHORS
+  /usr/share/doc/searchmonkey-0.8.0/ChangeLog
+  /usr/share/doc/searchmonkey-0.8.0/INSTALL
+  /usr/share/doc/searchmonkey-0.8.0/NEWS
+  /usr/share/doc/searchmonkey-0.8.0/README
+  /usr/share/pixmaps/searchmonkey.png
+  /usr/share/pixmaps/searchmonkey/readme-searchmonkey-icon.txt
+  /usr/share/pixmaps/searchmonkey/searchmonkey-16x16.png
+  /usr/share/pixmaps/searchmonkey/searchmonkey-22x22.png
+  /usr/share/pixmaps/searchmonkey/searchmonkey-24x24.png
+  /usr/share/pixmaps/searchmonkey/searchmonkey-300x300.png
+  /usr/share/pixmaps/searchmonkey/searchmonkey-32x32.png
+  /usr/share/pixmaps/searchmonkey/searchmonkey-48x48.png
+  /usr/share/pixmaps/searchmonkey/searchmonkey-96x96.png
+
+------------------
+
+Port Notes:
+
+----- version 0.8.0-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

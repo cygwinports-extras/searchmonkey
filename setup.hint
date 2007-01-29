@@ -1,0 +1,5 @@
+category: Gnome
+requires: cygwin gtk2-x11 libintl8
+sdesc: "GTK+ real-time search engine"
+ldesc: "A fast real-time search engine for displaying regular expression 
+matches (both file name and content) across multiple directories."
