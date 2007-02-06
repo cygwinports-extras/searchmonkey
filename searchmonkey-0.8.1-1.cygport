@@ -1,0 +1,5 @@
+inherit gnome2
+
+DESCRIPTION="GTK+ regular expression file search"
+HOMEPAGE="http://searchmonkey.sourceforge.net/"
+SRC_URI=mirror://sourceforge/${PN}/${P}.tar.gz
